@@ -1,4 +1,5 @@
 <?php
+# компонент бесплатный 31.01.2016
         function routes_sporim(){
 
                $routes[] = array(

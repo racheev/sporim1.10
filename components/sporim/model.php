@@ -1,6 +1,6 @@
 <?php
 if(!defined('VALID_CMS')) { die('ACCESS DENIED'); }
- 
+# компонент бесплатный 31.01.2016
 class cms_model_sporim{
 
 	function __construct(){
