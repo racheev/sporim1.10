@@ -1,150 +1,298 @@
-<?php //004ff
-// IONCUBE ENCODER 8.2 EVALUATION
-// THIS LICENSE MESSAGE IS ONLY ADDED BY THE EVALUATION ENCODER AND
-// IS NOT PRESENT IN PRODUCTION ENCODED FILES
+<?php
+function sporim(){
+# компонент бесплатный, зашифрован он только для того что бы не было 100500 модификаций.
+# если хочется каких-то доработок, пишите запросы на форуме http://instant.clubcontact.ru
+#
+	//Инициализируем объекты, которые нам понадобятся
+	//для работы: ядро, страница(шаблонизатор) и пользователь
+	$inCore = cmsCore::getInstance();
+	$inPage = cmsPage::getInstance();
+	$inUser = cmsUser::getInstance();
+ 
+	//загрузим модель
+	$inCore->loadModel('sporim');
+	//создадим объект модели
+	$model = new cms_model_sporim();
 
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo('Site error: the file <b>'.__FILE__.'</b> requires the ionCube PHP Loader '.basename($__ln).' to be installed by the website operator. If you are the website operator please use the <a href="http://www.ioncube.com/lw/">ionCube Loader Wizard</a> to assist with installation.');exit(199);
-?>
-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
-JZNQQB4aib2h5gDubr95AfDRNUsgXkgaf4nMQm==
+	//Получаем текущее действие из URL страницы
+	$action     = $inCore->request('action', 'str', 'view'); // вывод самого компонента без параметров
+	$zapros     = $inCore->request('zapros', 'str', ''); //
+
+
+	$srok = "2014.12.10";
+	$segodnya = date("Y.m.d", time());
+if ($srok >= $segodnya) {
+
+
+
+	if ($action == 'view'){ // смотрим все споры
+		// получаем сообщения из базы
+		$messages = $model->getAllSpor();
+		// устанавливаем заголовок страницы и титл
+		$inPage->setTitle("Давай поспорим");
+		$inPage->addPathway('Давай поспорим');
+		// подключаем шаблонизатор Smarty и сообщаем ему имя шаблона
+		$smarty = $inCore->initSmarty('components', 'com_sporim_view_all.tpl');
+		// передаем в шаблон 
+		$smarty->assign('messages', $messages);
+		// выводим шаблон на экран
+		$smarty->display('com_sporim_view_all.tpl');
+		//завершаем работу компонента
+		return;
+	}
+
+	else if ($action == 'add'){
+		$is_send = $inCore->inRequest('send'); // кнопка отправки
+		if (!$is_send){            		
+            //подключаем шаблон и выводим на экран
+			if ($inUser->id>=1){ // авторизованый может создать
+				$smarty = $inCore->initSmarty('components', 'com_sporim_add.tpl');
+				$smarty->display('com_sporim_add.tpl');
+			} else {
+				cmsCore::addSessionMessage('Вы должны быть авторизованы на сайте!', 'error');
+			}
+				$inPage->setTitle("Добавить новый прецендент");
+				$inPage->addPathway('Давай поспорим', '/sporim');
+				$inPage->addPathway('Добавить новый прецендент');		
+		}
+        if ($is_send){
+			// получаем все параметры сообщения
+			$title      = $inCore->request('title', 'str');
+			$description    = $inCore->request('description', 'str');
+			$keywords    = $inCore->request('keywords', 'str');
+			$keywords    = chop($keywords, ' ,');
+			$user_id    = $inUser->id; // юзер
+ 
+			// если не указана тема или сообщение
+			if (!$title || !$description) {
+				//сохраняем текст ошибки в сессию
+				cmsCore::addSessionMessage('Укажите название и описание!', 'error');
+				//и делаем редирект обратно на форму, завершая выполнение скрипта
+				$inCore->redirectBack(); exit;
+			}
+			// добавляем сообщение и получаем его номер
+			$message_id = $model->addSpor($title, $description, $keywords, $user_id);
+			
+			// если номер сообщения получен
+			if ($message_id){
+				// запишем в ленту активности событие
+				// версия 2
+				
+				cmsActions::log('add_sporim', array( // пишем в ленту
+   					'object' => $title, //Название 
+   					'object_url' => '/sporim/'.$message_id.'', //ссылка на страницу с турниром
+   					'object_id' => $user_id, //Уникальный ID юзера
+   					'target' => $message_id, // результат
+   					'target_url' => '/sporim/'.$message_id.'',  // ссылка на него 
+   					'target_id' => $message_id,
+   					'description' => 'Примите участие.' // описание события
+				));				
+				//сохраняем текст успеха в сессию
+				cmsCore::addSessionMessage('Новый спор успешно добавлен!', 'success');
+				
+			}
+			// если по каким-то причинам сообщение не добавилось
+			if (!$message_id){
+				//сохраняем текст неудачи
+				cmsCore::addSessionMessage('Ошибка добавления спора!', 'error');
+			}
+			// делаем редирект на список сообщений и завершаем скрипт
+			$inCore->redirect('/sporim'); exit;
+		}
+	}
+
+	else if ($action == 'delete'){ // если понадобится сделаем удалялку
+		//получаем ID сообщения
+		$message_id = $inCore->request('zapros', 'int', 0);
+		//если ID не получен или пользователь не администратор, делаем редирект обратно
+		if (!$message_id || !$inUser->is_admin) {
+			$inCore->redirectBack(); exit;
+		}
+		//удаляем сообщение
+		$model->deleteSpor($message_id);
+		//делаем редирект обратно к списку сообщений
+		$inCore->redirect('/sporim'); exit;
+		//$inCore->redirectBack(); exit;
+	}
+	else if ($action == 'edit'){ // если понадобится сделаем удалялку
+		//получаем ID сообщения
+		$message_id = $inCore->request('zapros', 'int', 0);
+		//если ID не получен или пользователь не администратор, делаем редирект обратно
+		if (!$message_id || !$inUser->is_admin) {
+			$inCore->redirectBack(); exit;
+		}
+		// выбираем сообщение из базы
+		$messages = $model->selectSpor();
+		//делаем редирект обратно к списку сообщений
+		// получаем сообщения из базы
+		//$model->getAllSpor();
+		// устанавливаем заголовок страницы и титл
+		$inPage->setTitle('Редактируем спор - '.$messages[0]['title']);
+		$inPage->addPathway('Спорим','/sporim');
+		$inPage->addPathway('Редактируем спор - '.$messages[0]['title']); // название в хлебные крошки
+		// подключаем шаблонизатор Smarty и сообщаем ему имя шаблона
+		$smarty = $inCore->initSmarty('components', 'com_sporim_edit.tpl');
+		// передаем в шаблон 
+		$smarty->assign('messages', $messages[0]);
+		//print_r($messages[0]);
+		// выводим шаблон на экран
+		$smarty->display('com_sporim_edit.tpl');
+		//завершаем работу компонента
+		return;
+	}
+//=====================================
+	else if ($action == 'edited'){
+		$is_send = $inCore->inRequest('send'); // кнопка отправки
+		if (!$is_send) {   // если не было кнопки отправить
+			//сохраняем текст ошибки в сессию
+			cmsCore::addSessionMessage('Не правильные данные!', 'error');
+			//и делаем редирект обратно на форму, завершая выполнение скрипта
+			$inCore->redirectBack(); exit;      		
+            //подключаем шаблон и выводим на экран
+			//if ($inUser->id>=1){ // авторизованый может создать
+			//	$smarty = $inCore->initSmarty('components', 'com_sporim_add.tpl');
+			//	$smarty->display('com_sporim_add.tpl');
+			//} else {
+			//	cmsCore::addSessionMessage('Вы должны быть авторизованы на сайте!', 'error');
+			//}
+				//$inPage->setTitle("Добавить новый прецендент");
+				//$inPage->addPathway('Давай поспорим', '/sporim');
+				//$inPage->addPathway('Добавить новый прецендент');		
+		}
+        if ($is_send){
+			// получаем все параметры сообщения
+			$title      = $inCore->request('title', 'str');
+			$description    = $inCore->request('description', 'str');
+			$keywords    = $inCore->request('keywords', 'str');
+			$keywords    = chop($keywords, ' ,');
+			$id    = $inCore->request('id', 'int', 0);
+// print_r($_POST);
+			// если не указана тема или сообщение
+			if (!$title || !$description) {
+				//сохраняем текст ошибки в сессию
+				cmsCore::addSessionMessage('Укажите название и описание!', 'error');
+				//и делаем редирект обратно на форму, завершая выполнение скрипта
+				$inCore->redirectBack(); exit;
+			} else { // иначе редактируем сообщение
+				$model->editedSpor($title, $description, $keywords, $id);
+				cmsCore::addSessionMessage('Спор успешно отредактирован!', 'success');	
+				$inCore->redirect('/sporim'); exit;
+				
+			}
+			// добавляем сообщение и получаем его номер
+			//$message_id = $model->addSpor($title, $description, $keywords, $user_id);
+			
+			// если номер сообщения получен
+			//if ($message_id){
+				//сохраняем текст успеха в сессию
+			//	cmsCore::addSessionMessage('Спор успешно отредактирован!', 'success');		
+			//}
+			// если по каким-то причинам сообщение не добавилось
+			//if (!$message_id){
+				//сохраняем текст неудачи
+			//	cmsCore::addSessionMessage('Ошибка редактирования спора!', 'error');
+			//}
+			// делаем редирект на список сообщений и завершаем скрипт
+			//$inCore->redirect('/sporim'); exit;
+		}
+	}
+//======================
+
+	else if ($action == 'da'){
+		if ($inUser->id>=1){ // авторизованый может голосовать
+		//получаем ID сообщения из поста
+		$s_id = $inCore->request('s_id', 'int', 0); // получаем номер спора
+		$user_id = $inUser->id; // плучаем юзера кто голосует
+		//обновляем голоса	
+		// получим ок если в модели return true
+		$ok = $model->addDa($s_id, $user_id);
+		
+			if (!$ok){
+				//сохраняем текст неудачи
+				cmsCore::addSessionMessage('Вы сегодня уже отдали свой голос в этом споре!', 'error');
+			} else {
+				cmsCore::addSessionMessage('Ваш голос принят, спасибо!', 'success');
+			}
+			
+		} else {
+				cmsCore::addSessionMessage('Вы должны быть авторизованы на сайте!', 'error');
+		}
+		//делаем редирект обратно к списку сообщений
+		$inCore->redirectBack(); exit;
+
+	} else if ($action == 'no'){
+		if ($inUser->id>=1){ // авторизованый может голосовать
+		//получаем ID сообщения
+		$s_id = $inCore->request('s_id', 'int', 0);
+		$user_id = $inUser->id;   
+		//обновляем голоса
+		// получим ок если в модели return true
+		$ok = $model->addNo($s_id, $user_id);
+		
+			if (!$ok){
+				//сохраняем текст неудачи
+				cmsCore::addSessionMessage('Вы сегодня уже отдали свой голос в этом споре!', 'error');
+			} else {
+				cmsCore::addSessionMessage('Ваш голос принят, спасибо!', 'success');
+			}
+		
+		} else {
+				cmsCore::addSessionMessage('Вы должны быть авторизованы на сайте!', 'error');
+			}
+		//делаем редирект обратно к списку сообщений
+		$inCore->redirectBack(); exit;
+	}
+
+	// иначе выводим сам спор. 
+	else { 
+		//получаем сообщения из базы
+		$messages = $model->getSpor();
+		//Устанавливаем заголовок страницы
+		$inPage->setTitle('Давай поспорим - '. $messages[0]['title']);
+		$inPage->setDescription('Давай поспорим - '. $messages[0]['description']);
+		$inPage->setKeywords($messages[0]['keywords']);
+		$inPage->addPathway('Давай поспорим', '/sporim');
+		$inPage->addPathway($messages[0]['title']); // название в хлебные крошки
+		//подключаем шаблонизатор Smarty и сообщаем ему имя шаблона
+		$smarty = $inCore->initSmarty('components', 'com_sporim.tpl');
+		// передаем в шаблон 
+		//$usrrrr=$inUser->getKarmaFormat('1', false, 0);
+		//print_r($inUser->user_id);
+		//if ($messages[0]['user_id']==$inUser->is_admin) {
+		if ($inUser->is_admin) {
+			$smarty->assign('edited', 1);
+		} else {
+			$smarty->assign('edited', 0);
+		}
+		
+		
+		
+		
+		$karma = cmsUser::getKarma(1, false, 0);
+		$smarty->assign('karma', $karma);
+		$smarty->assign('messages', $messages);
+		//выводим шаблон на экран
+		$smarty->display('com_sporim.tpl');
+		// версия 2
+		
+		$inCore->includeComments(); // подключаем коменты 
+		comments('sporim', $action); // айди комента
+		
+		
+		//завершаем работу компонента
+		return;
+	}
+	
+	
+
+//// лицуха
+} else {
+	echo '<font size="+3">Неверный ключ лицензии компонента Битвы титанов<br><br>ключ лицензии <font color="red">'.$key.'</font> не подходит для домена <font color="blue">'.$_SERVER["SERVER_NAME"].'</font><br><br>
+Укажите правильный ключ в настройках компонента</font>';
+}
+////
+}
+
+
+
+
